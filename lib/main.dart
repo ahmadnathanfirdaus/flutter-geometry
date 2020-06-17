@@ -4,6 +4,7 @@ import 'package:flutter/rendering.dart';
 void main() => runApp(MaterialApp(
       title: 'Geometry',
       home: Home(),
+      debugShowCheckedModeBanner: false,
     ));
 
 class Home extends StatelessWidget {
